@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T01:50:13.174Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="j0JRjgsVHovyi-Pajzav" version="24.4.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-30T01:52:06.888Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="Eeb1UNIPGKp5icmkGX9-" version="24.4.7" type="github" pages="3">
   <diagram id="z4mDEb9Q4CgSRI-PU291" name="Side">
     <mxGraphModel dx="4555" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2880,8 +2880,14 @@
             <mxPoint x="-17" y="-23" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4NMU2W3AMRp3vI1hfXgq-507" value="&lt;ul&gt;&lt;li&gt;Exception&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
-          <mxGeometry x="470" y="1674" width="150" height="80" as="geometry" />
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-508" value="Exception" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="1660" width="480" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-509" value="Lane 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="4NMU2W3AMRp3vI1hfXgq-508">
+          <mxGeometry y="20" width="480" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-513" value="&lt;b&gt;Not Found Entity&lt;br&gt;S3 Exception&lt;/b&gt;&lt;div&gt;&lt;b&gt;...&lt;/b&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="4NMU2W3AMRp3vI1hfXgq-509">
+          <mxGeometry x="185" y="30" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
