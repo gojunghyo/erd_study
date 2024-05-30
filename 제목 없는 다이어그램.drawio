@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T02:35:01.962Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="qx-KoFT9EuOvGqM7CHHd" version="24.4.10" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-30T03:44:14.025Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="FXIZLbj3sUdXE_QUtVCg" version="24.4.10" type="github" pages="3">
   <diagram id="z4mDEb9Q4CgSRI-PU291" name="Side">
     <mxGraphModel dx="4555" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2364,7 +2364,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4NMU2W3AMRp3vI1hfXgq-235" value="recovery_expected_date" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="4NMU2W3AMRp3vI1hfXgq-233" vertex="1">
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-235" value="recovery_expected_date (대여 만료일)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="4NMU2W3AMRp3vI1hfXgq-233" vertex="1">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2875,7 +2875,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqmDrA_bzg56ov7PKjJe-5" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li&gt;자산번호로 자산, 자산할당 테이블 조회&lt;/li&gt;&lt;li&gt;자산대여연장 (처리중) 생성&lt;/li&gt;&lt;li&gt;S3 이미지 업로드&lt;/li&gt;&lt;li&gt;신청서 (처리중) 생성&lt;/li&gt;&lt;li&gt;대여연장 생성&lt;/li&gt;&lt;li&gt;신청 내역 생성&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="4NMU2W3AMRp3vI1hfXgq-317" vertex="1">
+        <mxCell id="NqmDrA_bzg56ov7PKjJe-5" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li&gt;asset_id(자산번호)로 자산, 자산할당 테이블 조회&lt;br&gt;&lt;/li&gt;&lt;li&gt;자산상세상태 (연장요청) 생성&lt;/li&gt;&lt;li&gt;자산대여연장 (처리중) 생성&lt;/li&gt;&lt;li&gt;S3 이미지 업로드&lt;/li&gt;&lt;li&gt;신청서 (처리중) 생성&lt;/li&gt;&lt;li&gt;대여연장 생성&lt;/li&gt;&lt;li&gt;신청 내역 생성&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="4NMU2W3AMRp3vI1hfXgq-317" vertex="1">
           <mxGeometry x="1470" y="490" width="340" height="260" as="geometry" />
         </mxCell>
         <mxCell id="RytgjN2AMtbso7akjrhu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="RytgjN2AMtbso7akjrhu-12" edge="1">
@@ -2921,7 +2921,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4NMU2W3AMRp3vI1hfXgq-515" value="[대여기간 만료 리스트]&lt;br style=&quot;font-size: 14px;&quot;&gt;신청가능 횟수 1회 이상 3회 이하&lt;br style=&quot;font-size: 14px;&quot;&gt;자산만료 7일전 OR 만료자산&lt;br style=&quot;font-size: 14px;&quot;&gt;(assign_type = 장비대여)&lt;br style=&quot;font-size: 14px;&quot;&gt;(assign_reason = 일반대여)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=14;" parent="4NMU2W3AMRp3vI1hfXgq-374" vertex="1" connectable="0">
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-515" value="[대여기간 만료 리스트]&lt;br style=&quot;font-size: 14px;&quot;&gt;신청가능 횟수 1회 이상 3회 이하,&lt;br style=&quot;font-size: 14px;&quot;&gt;자산만료 7일전 OR 만료자산,&lt;br style=&quot;font-size: 14px;&quot;&gt;(assign_type = 장비대여),&lt;br style=&quot;font-size: 14px;&quot;&gt;(assign_reason = 일반대여),&lt;div&gt;(asset_state_detail_info != 연장요청)&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1;fontSize=14;" parent="4NMU2W3AMRp3vI1hfXgq-374" vertex="1" connectable="0">
           <mxGeometry x="0.0209" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2985,14 +2985,14 @@
         <mxCell id="4NMU2W3AMRp3vI1hfXgq-430" value="자산관리시스템 대여기간 연장승인/반려" style="swimlane;" parent="1" vertex="1">
           <mxGeometry x="-920" y="1790" width="640" height="580" as="geometry" />
         </mxCell>
-        <mxCell id="4NMU2W3AMRp3vI1hfXgq-465" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;자산대여기간 상태 승인&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;신청서 상태 승인&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;히스토리 내역 저장&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;대여기간연장일 저장&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=17;" parent="4NMU2W3AMRp3vI1hfXgq-430" vertex="1">
-          <mxGeometry x="160" y="360" width="270" height="170" as="geometry" />
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-465" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;자산대여기간 상태 = 승인&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;신청서 상태&amp;nbsp; = 승인&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;신청서 히스토리 생성 = 승인&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;자산할당 테이블 대여 만료일 업데이트&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;자산상세상태 테이블 삭제&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=17;" parent="4NMU2W3AMRp3vI1hfXgq-430" vertex="1">
+          <mxGeometry x="120" y="378" width="270" height="170" as="geometry" />
         </mxCell>
         <mxCell id="4NMU2W3AMRp3vI1hfXgq-427" value="&lt;b&gt;승인/반려&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" parent="4NMU2W3AMRp3vI1hfXgq-430" vertex="1">
           <mxGeometry x="150" y="160" width="80" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="4NMU2W3AMRp3vI1hfXgq-464" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;자산대여연장 상태 반려&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;신청서 상태 반려&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;히스토리 내역 저장&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;S3 업로드 이미지 삭제(?)&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;대상자에게 슬랙반려 알람&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=17;" parent="4NMU2W3AMRp3vI1hfXgq-430" vertex="1">
-          <mxGeometry x="400" y="150" width="220" height="180" as="geometry" />
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-464" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;자산대여연장 상태 = 반려&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;신청서 상태 = 반려&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;신청서 히스토리 생성 = 반려&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;S3 업로드 이미지 삭제(?)&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;자산상세상태 테이블 삭제&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;대상자에게 슬랙반려 알람&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=17;" parent="4NMU2W3AMRp3vI1hfXgq-430" vertex="1">
+          <mxGeometry x="400" y="150" width="220" height="250" as="geometry" />
         </mxCell>
         <mxCell id="4NMU2W3AMRp3vI1hfXgq-429" value="승인" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="4NMU2W3AMRp3vI1hfXgq-430" source="4NMU2W3AMRp3vI1hfXgq-427" target="4NMU2W3AMRp3vI1hfXgq-465" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
