@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T02:06:44.445Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="jayCUe-NtZv1_ZKosSRI" version="24.4.7" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-30T02:08:11.530Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="6pky5OX97KnyI-MOivdC" version="24.4.7" type="github" pages="3">
   <diagram id="z4mDEb9Q4CgSRI-PU291" name="Side">
     <mxGraphModel dx="4555" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3085,19 +3085,19 @@
         <mxCell id="4NMU2W3AMRp3vI1hfXgq-407" value="&lt;b&gt;신청완료 여부&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fontColor=#000000;fillColor=#ffffc0;strokeColor=#ff0000;" vertex="1" parent="1">
           <mxGeometry x="80" y="1690" width="90" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="4NMU2W3AMRp3vI1hfXgq-408" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" edge="1" source="4NMU2W3AMRp3vI1hfXgq-407" parent="1">
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-408" value="no" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" source="4NMU2W3AMRp3vI1hfXgq-407" parent="1" target="4NMU2W3AMRp3vI1hfXgq-509">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="470" y="1715" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4NMU2W3AMRp3vI1hfXgq-409" value="&lt;b&gt;신청완료 Response&lt;/b&gt;" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="4NMU2W3AMRp3vI1hfXgq-407" parent="1" target="4NMU2W3AMRp3vI1hfXgq-412">
-          <mxGeometry x="-0.6444" y="15" relative="1" as="geometry">
+          <mxGeometry x="0.8591" y="23" relative="1" as="geometry">
             <mxPoint x="120" y="1890" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4NMU2W3AMRp3vI1hfXgq-412" value="대여기간 연장 Res" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="110" y="1910" width="140" height="210" as="geometry" />
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-412" value="대여기간 연장" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-242.69" y="2030" width="140" height="210" as="geometry" />
         </mxCell>
         <mxCell id="4NMU2W3AMRp3vI1hfXgq-413" value="asset_id (자산번호)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="4NMU2W3AMRp3vI1hfXgq-412">
           <mxGeometry y="30" width="140" height="30" as="geometry" />
@@ -3153,11 +3153,11 @@
         </mxCell>
         <mxCell id="4NMU2W3AMRp3vI1hfXgq-506" value="&lt;b&gt;신청완료&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="4NMU2W3AMRp3vI1hfXgq-505">
           <mxGeometry x="-0.4491" y="-2" relative="1" as="geometry">
-            <mxPoint x="-17" y="-23" as="offset" />
+            <mxPoint x="-49" y="-13" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="4NMU2W3AMRp3vI1hfXgq-508" value="Exception" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;horizontal=1;startSize=20;horizontalStack=0;html=1;" vertex="1" parent="1">
-          <mxGeometry x="480" y="1660" width="480" height="140" as="geometry" />
+          <mxGeometry x="450" y="1740" width="480" height="140" as="geometry" />
         </mxCell>
         <mxCell id="4NMU2W3AMRp3vI1hfXgq-509" value="Lane 1" style="swimlane;startSize=20;horizontal=0;html=1;" vertex="1" parent="4NMU2W3AMRp3vI1hfXgq-508">
           <mxGeometry y="20" width="480" height="120" as="geometry" />
