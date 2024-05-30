@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T02:29:47.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="pLmxxequRpYVoHfwnzG6" version="24.4.10" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-30T02:35:01.962Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="qx-KoFT9EuOvGqM7CHHd" version="24.4.10" type="github" pages="3">
   <diagram id="z4mDEb9Q4CgSRI-PU291" name="Side">
     <mxGraphModel dx="4555" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2174,7 +2174,7 @@
             <mxPoint x="-260.19000000000005" y="120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqmDrA_bzg56ov7PKjJe-1" value="대여기간 만료 알람 배치" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" vertex="1" connectable="0" parent="4NMU2W3AMRp3vI1hfXgq-367">
+        <mxCell id="NqmDrA_bzg56ov7PKjJe-1" value="대여기간 만료 알람 배치" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontStyle=1" parent="4NMU2W3AMRp3vI1hfXgq-367" vertex="1" connectable="0">
           <mxGeometry x="0.0111" y="-5" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -2774,7 +2774,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="4NMU2W3AMRp3vI1hfXgq-523" value="asset_id (자산번호)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="4NMU2W3AMRp3vI1hfXgq-521" vertex="1">
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-523" value="asset_id (자산번호) UNIQUE&amp;nbsp;" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" parent="4NMU2W3AMRp3vI1hfXgq-521" vertex="1">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2821,15 +2821,15 @@
             <mxRectangle width="190" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqmDrA_bzg56ov7PKjJe-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="4NMU2W3AMRp3vI1hfXgq-548">
+        <mxCell id="NqmDrA_bzg56ov7PKjJe-2" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="4NMU2W3AMRp3vI1hfXgq-548" vertex="1">
           <mxGeometry y="90" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NqmDrA_bzg56ov7PKjJe-3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="NqmDrA_bzg56ov7PKjJe-2">
+        <mxCell id="NqmDrA_bzg56ov7PKjJe-3" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="NqmDrA_bzg56ov7PKjJe-2" vertex="1">
           <mxGeometry width="30" height="30" as="geometry">
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqmDrA_bzg56ov7PKjJe-4" value="asset_state (사용중)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=0" vertex="1" parent="NqmDrA_bzg56ov7PKjJe-2">
+        <mxCell id="NqmDrA_bzg56ov7PKjJe-4" value="asset_state (사용중)" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;fontStyle=0" parent="NqmDrA_bzg56ov7PKjJe-2" vertex="1">
           <mxGeometry x="30" width="190" height="30" as="geometry">
             <mxRectangle width="190" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -2875,7 +2875,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqmDrA_bzg56ov7PKjJe-5" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li&gt;자산번호로 자산, 자산할당 테이블 조회&lt;/li&gt;&lt;li&gt;자산대여연장 (처리중) 생성&lt;/li&gt;&lt;li&gt;S3 이미지 업로드&lt;/li&gt;&lt;li&gt;신청서 (처리중) 생성&lt;/li&gt;&lt;li&gt;대여연장 생성&lt;/li&gt;&lt;li&gt;신청 내역 생성&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="4NMU2W3AMRp3vI1hfXgq-317">
+        <mxCell id="NqmDrA_bzg56ov7PKjJe-5" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li&gt;자산번호로 자산, 자산할당 테이블 조회&lt;/li&gt;&lt;li&gt;자산대여연장 (처리중) 생성&lt;/li&gt;&lt;li&gt;S3 이미지 업로드&lt;/li&gt;&lt;li&gt;신청서 (처리중) 생성&lt;/li&gt;&lt;li&gt;대여연장 생성&lt;/li&gt;&lt;li&gt;신청 내역 생성&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="4NMU2W3AMRp3vI1hfXgq-317" vertex="1">
           <mxGeometry x="1470" y="490" width="340" height="260" as="geometry" />
         </mxCell>
         <mxCell id="RytgjN2AMtbso7akjrhu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="RytgjN2AMtbso7akjrhu-12" edge="1">
@@ -2994,7 +2994,7 @@
         <mxCell id="4NMU2W3AMRp3vI1hfXgq-464" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;자산대여연장 상태 반려&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;신청서 상태 반려&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;히스토리 내역 저장&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;S3 업로드 이미지 삭제(?)&lt;br style=&quot;font-size: 17px;&quot;&gt;&lt;/li&gt;&lt;li style=&quot;font-size: 17px;&quot;&gt;대상자에게 슬랙반려 알람&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;fontSize=17;" parent="4NMU2W3AMRp3vI1hfXgq-430" vertex="1">
           <mxGeometry x="400" y="150" width="220" height="180" as="geometry" />
         </mxCell>
-        <mxCell id="4NMU2W3AMRp3vI1hfXgq-429" value="승인" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="4NMU2W3AMRp3vI1hfXgq-430" source="4NMU2W3AMRp3vI1hfXgq-427" edge="1" target="4NMU2W3AMRp3vI1hfXgq-465">
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-429" value="승인" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=top;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;" parent="4NMU2W3AMRp3vI1hfXgq-430" source="4NMU2W3AMRp3vI1hfXgq-427" target="4NMU2W3AMRp3vI1hfXgq-465" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="275" y="350" as="targetPoint" />
             <Array as="points">
@@ -3003,7 +3003,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="4NMU2W3AMRp3vI1hfXgq-428" value="반려" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=-0.006;entryY=0.407;entryDx=0;entryDy=0;entryPerimeter=0;" parent="4NMU2W3AMRp3vI1hfXgq-430" source="4NMU2W3AMRp3vI1hfXgq-427" edge="1" target="4NMU2W3AMRp3vI1hfXgq-464">
+        <mxCell id="4NMU2W3AMRp3vI1hfXgq-428" value="반려" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=-0.006;entryY=0.407;entryDx=0;entryDy=0;entryPerimeter=0;" parent="4NMU2W3AMRp3vI1hfXgq-430" source="4NMU2W3AMRp3vI1hfXgq-427" target="4NMU2W3AMRp3vI1hfXgq-464" edge="1">
           <mxGeometry x="-1" relative="1" as="geometry">
             <mxPoint x="390" y="220" as="targetPoint" />
           </mxGeometry>
