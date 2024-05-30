@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-30T02:26:24.135Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="UzWKonpt0cxzURf0OwqT" version="24.4.10" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2024-05-30T02:29:47.625Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="pLmxxequRpYVoHfwnzG6" version="24.4.10" type="github" pages="3">
   <diagram id="z4mDEb9Q4CgSRI-PU291" name="Side">
     <mxGraphModel dx="4555" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2875,7 +2875,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NqmDrA_bzg56ov7PKjJe-5" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li&gt;자산번호로 자산, 자산할당 테이블 조회&lt;/li&gt;&lt;li&gt;자산대여연장 (처리중) 생성&lt;/li&gt;&lt;li&gt;신청서 (처리중) 생성&lt;/li&gt;&lt;li&gt;대여연장 생성&lt;/li&gt;&lt;li&gt;신청 내역 생성&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="4NMU2W3AMRp3vI1hfXgq-317">
+        <mxCell id="NqmDrA_bzg56ov7PKjJe-5" value="&lt;ul style=&quot;font-size: 17px;&quot;&gt;&lt;li&gt;자산번호로 자산, 자산할당 테이블 조회&lt;/li&gt;&lt;li&gt;자산대여연장 (처리중) 생성&lt;/li&gt;&lt;li&gt;S3 이미지 업로드&lt;/li&gt;&lt;li&gt;신청서 (처리중) 생성&lt;/li&gt;&lt;li&gt;대여연장 생성&lt;/li&gt;&lt;li&gt;신청 내역 생성&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="4NMU2W3AMRp3vI1hfXgq-317">
           <mxGeometry x="1470" y="490" width="340" height="260" as="geometry" />
         </mxCell>
         <mxCell id="RytgjN2AMtbso7akjrhu-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="RytgjN2AMtbso7akjrhu-12" edge="1">
