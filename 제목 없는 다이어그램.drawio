@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-01T05:27:11.803Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="vZz-3kjsFLfnSkbZ2wHj" version="24.6.4" type="github" pages="5">
+<mxfile host="app.diagrams.net" modified="2024-07-01T05:29:14.756Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="6SqNfxHC9oR5LwFrx0a7" version="24.6.4" type="github" pages="5">
   <diagram id="z4mDEb9Q4CgSRI-PU291" name="Side">
     <mxGraphModel dx="4555" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3417,14 +3417,17 @@
         </mxCell>
         <mxCell id="kYMjuiNI-YjHYmA__Fm4-133" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="kYMjuiNI-YjHYmA__Fm4-130">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="240" y="1110" as="targetPoint" />
+            <mxPoint x="240" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="kYMjuiNI-YjHYmA__Fm4-130" value="&lt;b&gt;DataStore&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+        <mxCell id="kYMjuiNI-YjHYmA__Fm4-130" value="&lt;b&gt;DB&lt;/b&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
           <mxGeometry x="210" y="681.25" width="60" height="80" as="geometry" />
         </mxCell>
         <mxCell id="kYMjuiNI-YjHYmA__Fm4-132" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="sor1aAlpSfvz9-zNSy7k-40" target="kYMjuiNI-YjHYmA__Fm4-130">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kYMjuiNI-YjHYmA__Fm4-135" value="Asset Summary DataStore" style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="1070" width="920" height="440" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
