@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-07-03T00:06:32.899Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="wh5fXuE_qrUKYM4OyJPW" version="24.6.4" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2024-07-03T00:06:56.087Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="eQyTQLxBYPox4mX30z16" version="24.6.4" type="github" pages="6">
   <diagram id="z4mDEb9Q4CgSRI-PU291" name="Side">
     <mxGraphModel dx="4555" dy="1098" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -3376,7 +3376,7 @@
           <mxGeometry x="-1770" y="990" width="410" height="90" as="geometry" />
         </mxCell>
         <mxCell id="G-WL9Y04UpCMGyVmAKZ2-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="-E02XrYo5r8TIia5Thh4-1">
-          <mxGeometry x="-1830" y="1150" width="10" height="10" as="geometry" />
+          <mxGeometry x="-1830" y="1180" width="10" height="10" as="geometry" />
         </mxCell>
         <mxCell id="G-WL9Y04UpCMGyVmAKZ2-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;Runtime Exception&lt;/font&gt;&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;code = 9003,&lt;br&gt;message = &quot;인증 정보가 없거나, 유효하지 않은 API 키 입니다.&quot;,&lt;br&gt;data= null&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="-E02XrYo5r8TIia5Thh4-1">
           <mxGeometry x="-1770" y="1110" width="410" height="90" as="geometry" />
