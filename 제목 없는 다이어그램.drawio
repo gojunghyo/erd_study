@@ -4219,8 +4219,13 @@
         <mxCell id="QcP0msDAh-s3zSsBgZXJ-12" value="배치 서버" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="282.5" y="777.5" width="80" height="45" as="geometry" />
         </mxCell>
+        <mxCell id="_EuUHhcEjK2TzRMYgmj--10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="QcP0msDAh-s3zSsBgZXJ-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="QcP0msDAh-s3zSsBgZXJ-14" value="&lt;b&gt;사용자 계정 생성/수정/삭제&lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="320" y="460" width="170" height="30" as="geometry" />
+          <mxGeometry x="329" y="520" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QcP0msDAh-s3zSsBgZXJ-15" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=data:image/png,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;" vertex="1" parent="1">
           <mxGeometry x="550" y="690" width="75" height="75" as="geometry" />
@@ -4239,6 +4244,18 @@
         </mxCell>
         <mxCell id="QcP0msDAh-s3zSsBgZXJ-22" value="&lt;b&gt;전체 유저 정보 응답&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="375" y="658" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_EuUHhcEjK2TzRMYgmj--1" value="유저 동기화 " style="swimlane;" vertex="1" parent="1">
+          <mxGeometry x="780" y="410" width="490" height="427.5" as="geometry" />
+        </mxCell>
+        <mxCell id="QcP0msDAh-s3zSsBgZXJ-37" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;구성원 서버에는 존재하지만 자산DB에 존재하지 않는 유저 생성&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;법인번호, 사번으로 중복여부 확인, 생성&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="_EuUHhcEjK2TzRMYgmj--1">
+          <mxGeometry x="30" y="175" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QcP0msDAh-s3zSsBgZXJ-40" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;수정&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;법인번호, 사번으로 존재하는 유저의 이메일, 이름, 입사일, 직위, 재직상태 고용상태 수정&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="_EuUHhcEjK2TzRMYgmj--1">
+          <mxGeometry x="30" y="300" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="QcP0msDAh-s3zSsBgZXJ-30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;신규 입사자 수정&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;법인번호, 부서번호, 이메일로 이미 등록된 신규입사자일 경우 이메일, 이름, 입사일, 직위, 재직상태, 사번 수정&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="_EuUHhcEjK2TzRMYgmj--1">
+          <mxGeometry x="30" y="60" width="410" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
