@@ -4099,7 +4099,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="DYKzqrXSVDnmMLujCbMy" name="assets_architecture_240812">
-    <mxGraphModel dx="2074" dy="2267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2901" dy="2267" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -4256,6 +4256,18 @@
         </mxCell>
         <mxCell id="QcP0msDAh-s3zSsBgZXJ-30" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;&lt;b&gt;신규 입사자 수정&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot; style=&quot;border-style:solid;&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;법인번호, 부서번호, 이메일로 이미 등록된 신규입사자일 경우 이메일, 이름, 입사일, 직위, 재직상태, 사번 수정&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;html=1;whiteSpace=wrap;" vertex="1" parent="_EuUHhcEjK2TzRMYgmj--1">
           <mxGeometry x="30" y="60" width="410" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="WOvS5ZGbuTfzYsTBqCOY-1" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="850" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WOvS5ZGbuTfzYsTBqCOY-2" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="-180" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WOvS5ZGbuTfzYsTBqCOY-3" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="1280" y="-170" width="10" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="WOvS5ZGbuTfzYsTBqCOY-4" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="860" width="10" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
